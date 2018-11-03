@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Patrick Lavallée",
+      "authorEmail": "patrick.lavallee@nexusinno.com",
+      "authorUrl": ""
+    }
+  }
+}
