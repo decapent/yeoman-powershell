@@ -1,5 +1,5 @@
 {
-  "name": "generator-yeoman-powershell",
+  "name": "generator-psmodule",
   "version": "0.0.0",
   "description": "Yeoman generator to scaffold a PS1 script based PowerShell Module with tests and code linting",
   "homepage": "https://github.com/decapent/yeoman-powershell",
@@ -20,7 +20,8 @@
     "analyzer",
     "pester",
     "gallery",
-    "yeoman-generator"
+    "yeoman-generator",
+    "module"
   ],
   "devDependencies": {
     "yeoman-test": "^1.7.0",
