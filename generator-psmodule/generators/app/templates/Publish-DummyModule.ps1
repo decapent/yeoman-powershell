@@ -2,7 +2,7 @@
 	.SYNOPSIS
         Publish the <%=moduleName%> module to the PowerShell Gallery.
     .DESCRIPTION
-        The Nexus Valo PowerShell toolkit gets published to a public nuget feed. This
+        The <%=moduleName%> gets published to a public nuget feed. This
         script will be most likely ran from a CI pipeline.
 #>
 [CmdletBinding()]

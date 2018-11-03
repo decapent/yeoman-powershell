@@ -101,8 +101,4 @@ module.exports = class extends Generator {
       }
     )
   }
-
-  install() {
-    this.installDependencies();
-  }
 };
