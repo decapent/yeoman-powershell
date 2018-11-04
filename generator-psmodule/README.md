@@ -3,17 +3,17 @@
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-yeoman-powershell using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and generator-psmodule using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 npm install -g yo
-npm install -g generator-yeoman-powershell
+npm install -g generator-psmodule
 ```
 
 Then generate your new project:
 
 ```bash
-yo yeoman-powershell
+yo psmodule
 ```
 
 ## Getting To Know Yeoman
