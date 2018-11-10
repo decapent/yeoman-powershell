@@ -8,7 +8,7 @@ const mkdir = require('make-dir');
 module.exports = class extends Generator {
   prompting() {
     this.log(
-      yosay(`Welcome to the ${chalk.blue('generator-yeoman-powershell')} generator dawg!`)
+      yosay(`Welcome to the ${chalk.blue('PSMODULE')} generator dawg!`)
     );
 
     const prompts = [
@@ -16,7 +16,7 @@ module.exports = class extends Generator {
         type: 'input',
         name: 'moduleName',
         message: 'What is the name of the module?',
-        default: "Dummy"
+        default: this.contextRoot.split("\\").pop()
       },
       {
         type: 'input',
@@ -27,7 +27,7 @@ module.exports = class extends Generator {
       {
         type: 'input',
         name: 'description',
-        message: 'What is the description of the module'
+        message: 'What is the description of the module?'
       }
     ];
 

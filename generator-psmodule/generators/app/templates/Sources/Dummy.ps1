@@ -1,4 +1,4 @@
-function Get-Dummy {
+function global:Get-Dummy {
     [CmdletBinding()]
     Param (
         [ValidateScript({Test-Path $_})]
