@@ -3,7 +3,7 @@ Describe ": Given the Dummy tools" {
         # Positioning ourselves at the script level
         Push-Location $PSScriptRoot
 
-        # Source Theming tools function
+        # Source Dummy tools function
         . $(Resolve-Path "..\Sources\Dummy.ps1")
 
         # Copying Test data to Test Drive        
