@@ -1,6 +1,6 @@
 {
   "name": "generator-psmodule",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Yeoman generator to scaffold a PS1 script based PowerShell Module with tests and code linting",
   "homepage": "https://github.com/decapent/yeoman-powershell",
   "author": {
