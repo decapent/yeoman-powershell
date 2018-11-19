@@ -95,8 +95,8 @@ module.exports = class extends Generator {
 
     // Module root section
     this.fs.copy(
-      this.templatePath('Install-ToolingModules.ps1'),
-      this.destinationPath('Install-ToolingModules.ps1')
+      this.templatePath('Install-CIPipelineModules.ps1'),
+      this.destinationPath('Install-CIPipelineModules.ps1')
     );
 
     this.fs.copyTpl(
