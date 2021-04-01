@@ -9,9 +9,7 @@ module.exports = class extends Generator {
   prompting() {
     this.log(
       yosay(
-        `Welcome to the ${chalk.rgb(256, 134, 0)(
-          'NEXUS PowerShell Module'
-        )} generator dawg!`
+        'Welcome to the PowerShell Module generator!'
       )
     );
 
